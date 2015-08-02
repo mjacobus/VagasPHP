@@ -13,7 +13,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module RubyJobsBrazil
+module VagasPhp
   class Application < Rails::Application
     # TODO: Change to true once the following issue has been fixed
     # https://github.com/rails/rails/issues/13164

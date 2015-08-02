@@ -1,12 +1,12 @@
-Ruby Jobs Brazil
+Vagas PHP
 ==============
 
-Código fonte do site [RubyJobsBrazil.com.br](http://rubyjobsbrazil.com.br)
+Código fonte do site [VagasPHP.com.br](http://vagasphp.com.br)
 
-[![Build Status](https://travis-ci.org/mjacobus/rubyjobsbrazil.png?branch=master)](https://travis-ci.org/mjacobus/rubyjobsbrazil)
-[![Coverage Status](https://coveralls.io/repos/mjacobus/rubyjobsbrazil/badge.png)](https://coveralls.io/r/mjacobus/rubyjobsbrazil)
-[![Code Climate](https://codeclimate.com/github/mjacobus/rubyjobsbrazil.png)](https://codeclimate.com/github/mjacobus/rubyjobsbrazil)
-[![Dependency Status](https://gemnasium.com/mjacobus/rubyjobsbrazil.png)](https://gemnasium.com/mjacobus/rubyjobsbrazil)
+[![Build Status](https://travis-ci.org/mjacobus/VagasPHP.png?branch=master)](https://travis-ci.org/mjacobus/VagasPHP)
+[![Coverage Status](https://coveralls.io/repos/mjacobus/VagasPHP/badge.png)](https://coveralls.io/r/mjacobus/VagasPHP)
+[![Code Climate](https://codeclimate.com/github/mjacobus/VagasPHP.png)](https://codeclimate.com/github/mjacobus/VagasPHP)
+[![Dependency Status](https://gemnasium.com/mjacobus/VagasPHP.png)](https://gemnasium.com/mjacobus/VagasPHP)
 
 ## Motor do Site
 
@@ -17,34 +17,6 @@ Usa a gem [Recruiter](https://github.com/mjacobus/recruiter), escrita especialme
 [![Code Climate](https://codeclimate.com/github/mjacobus/recruiter.png)](https://codeclimate.com/github/mjacobus/recruiter)
 [![Dependency Status](https://gemnasium.com/mjacobus/recruiter.png)](https://gemnasium.com/mjacobus/recruiter)
 [![Gem Version](https://badge.fury.io/rb/recruiter.png)](http://badge.fury.io/rb/recruiter)
-
-
-O que é?
-----------------
-
-O objetivo deste projeto é:
-
-- promover uma maior aceitação da Ruby linguagem no mercado de trabalho Brasileiro
-- incentivar pessoas a aprender a linguagem
-- dar boas vindas a novos desenvolvedores
-- engajar desenvolvedores, designers e outros a contribuir com um projeto open source bacana
-
-Quer contribuir? Veja como [aqui](#como-contribuir)
-
-
-Motivação
----------
-
-Ruby é uma linguagem fantástica. Rails é o melhor framework que se pode trabalhar. A comunidade rubista é sensacional!
-Promove excelentes práticas de desenvolvimento. Desenvolve soluções que inspiram. Veja o caso do Bundle, que inspirou Compass e npm, por exemplo!
-
-No entanto, não está fácil encontrar oportunidades para trabalhar com Ruby no Brasil. Por quê? Parece que principalmente por que as empresas se sentem mais seguras trabalhando com PHP, Java ou .Net,
-talvez pelo fato de ser mais fácil contratar um dev PHP que um dev Ruby!
-
-Mas chega desta palhaçada! =)
-
-Ruby Jobs Brazil é um site que anuncia oportunidades de trabalho relacionados com Ruby. __Apenas__ Ruby.
-
 
 Como Contribuir
 ---------------
@@ -73,7 +45,7 @@ Instalação
 Clone o projeto e então:
 
 ```bash
-cd rubyjobsbrazil
+cd VagasPHP
 rake db:create db:migrate db:seed
 rails s # inicia o servidor em http://localhost:3000
 ```
@@ -82,7 +54,7 @@ Navegue até [http://localhost:3000](http://localhost:3000)
 
 Reportando Erros
 --------------
-- Clique [neste link](https://github.com/mjacobus/rubyjobsbrazil/issues), depois em "New Issue". Explique o problema e marque o problema como "bug".
+- Clique [neste link](https://github.com/mjacobus/VagasPHP/issues), depois em "New Issue". Explique o problema e marque o problema como "bug".
 
 
 Guidelines
@@ -104,7 +76,7 @@ Funcionalidades desejadas
 
 Licença
 --------------
-- Este projeto é distribuido debaixo da licensa [MIT](https://github.com/mjacobus/rubyjobsbrazil/blob/master/MIT-LICENSE)
+- Este projeto é distribuido debaixo da licensa [MIT](https://github.com/mjacobus/VagasPHP/blob/master/MIT-LICENSE)
 
 Contribuidores
 --------------

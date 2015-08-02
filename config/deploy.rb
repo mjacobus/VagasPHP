@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :repo_url, 'git@github.com:mjacobus/rubyjobsbrazil.git'
+set :repo_url, 'git@github.com:mjacobus/VagasPhp.git'
 ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 set :scm, :git
 set :format, :pretty

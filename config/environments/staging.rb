@@ -5,8 +5,8 @@ Mail.register_interceptor RecipientInterceptor.new(
   subject_prefix: '[staging]'
 )
 
-RubyJobsBrazil::Application.configure do
+VagasPhp::Application.configure do
   # ...
 
-  config.action_mailer.default_url_options = { host: 'staging.RubyJobsBrazil.com' }
+  config.action_mailer.default_url_options = { host: 'staging.VagasPhp.com.br' }
 end

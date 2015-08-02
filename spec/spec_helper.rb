@@ -44,5 +44,5 @@ WebMock.disable_net_connect!(allow_localhost: true)
 
 Capybara.configure do |config|
   config.always_include_port = true
-  config.app_host = 'http://rubyjobsbrazil.com'
+  config.app_host = 'http://vagasphp.com.br'
 end
