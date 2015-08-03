@@ -16,5 +16,5 @@ script:
   - bundle exec rspec spec/
 
 before_script:
-  - mysql -e 'create database VagasPhp_test'
-  - psql -c 'create database  VagasPhp_test' -U postgres
+  - mysql -e 'create database VagasPHP_test'
+  - psql -c 'create database  VagasPHP_test' -U postgres
