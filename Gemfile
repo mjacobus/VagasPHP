@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'recruiter', '~>1.1.3'
+
 # ruby '2.0.0'
 
 gem 'rails', '~> 4.2'
@@ -17,7 +19,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-gem 'recruiter', '~>1.1.2'
 
 # avoid build error
 gem 'net-ssh', '~> 2.9.2'
