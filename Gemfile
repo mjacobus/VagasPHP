@@ -27,6 +27,9 @@ gem 'net-ssh', '~> 2.9.2'
 #
 gem 'kaminari'
 gem 'mysql2'
+gem 'capistrano', '3.2.1'
+gem 'capistrano-rails'
+gem 'capistrano-bundler'
 
 group :development, :test do
   gem 'awesome_print'
