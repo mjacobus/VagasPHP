@@ -10,9 +10,6 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'therubyracer',  platforms: :ruby
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-# gem 'turbolinks'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
@@ -24,12 +21,11 @@ gem 'spring',        group: :development
 gem 'net-ssh', '~> 2.9.2'
 
 # Rails non default
-#
 gem 'kaminari'
 gem 'mysql2'
 gem 'rack-timeout'
 gem 'figaro'
-gem 'unicorn'
+# gem 'unicorn' # causing timeouts
 gem 'capistrano', '3.2.1'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
