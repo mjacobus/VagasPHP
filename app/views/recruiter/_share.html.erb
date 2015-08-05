@@ -1,4 +1,5 @@
 <!-- facebook -->
+<!-- https://developers.facebook.com/docs/plugins/like-button -->
 <div class='social facbook'>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -9,7 +10,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  <div class="fb-like" data-share=true></div>
+  <div class="fb-like" data-share=true data-href="<%= request.original_url %>" data-show-faces="false"></div>
 </div>
 <!-- /facebook -->
 
