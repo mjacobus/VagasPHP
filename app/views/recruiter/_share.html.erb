@@ -1,18 +1,27 @@
-<!-- facebook -->
-<!-- https://developers.facebook.com/docs/plugins/like-button -->
-<div class='social facebook'>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=1453822838277024";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+<% content_for(:after_body_starts) do %>
+  <!-- facebook -->
+    <!-- https://developers.facebook.com/docs/plugins/like-button -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=1453822838277024";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- /facebook -->
+<% end %>
+<% content_for(:after_body_starts) do %>
 
-  <div class="fb-like" data-share=true data-href="<%= request.original_url %>" data-show-faces="false"></div>
+  <!-- /yie yie -->
+<% end %>
+
+<% og_data(:url, request.original_url) %>
+<% og_data(:description, object.try(:title)) %>
+
+<div class='social facebook'>
+  <div class="fb-like" data-share=true data-show-faces="false"></div>
 </div>
-<!-- /facebook -->
 
 <!-- twitter -->
 <div class='social twitter'>
