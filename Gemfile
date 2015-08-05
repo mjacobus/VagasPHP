@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'recruiter', '~>1.1.5'
+gem 'recruiter', '~>1.1.6'
 
 # ruby '2.0.0'
 
