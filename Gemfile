@@ -24,27 +24,9 @@ gem 'spring',        group: :development
 gem 'net-ssh', '~> 2.9.2'
 
 # Rails non default
-
-gem 'email_validator'
-gem 'high_voltage'
-gem 'mysql2'
-gem 'rack-timeout'
-gem 'recipient_interceptor'
-gem 'simple_form'
-gem 'unicorn'
+#
 gem 'kaminari'
-gem 'vattributes'
-gem 'draper', '~> 1.3'
-gem 'foundation-rails'
-gem 'foundation-icons-sass-rails'
-# gem 'github-markup'
-gem 'table_cloth'
-gem 'capistrano', '3.2.1'
-gem 'capistrano-rails'
-gem 'capistrano-bundler'
-gem 'figaro'
-
-gem 'escape_utils', '~>1.0.1' # fixes compiling error
+gem 'mysql2'
 
 group :development, :test do
   gem 'awesome_print'
