@@ -27,6 +27,8 @@ gem 'net-ssh', '~> 2.9.2'
 #
 gem 'kaminari'
 gem 'mysql2'
+gem 'rack-timeout'
+gem 'figaro'
 gem 'capistrano', '3.2.1'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
