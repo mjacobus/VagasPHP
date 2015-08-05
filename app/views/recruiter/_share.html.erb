@@ -1,4 +1,4 @@
-<% content_for(:after_body_starts) do %>
+<% content_for :after_body_opens do %>
   <!-- facebook -->
     <!-- https://developers.facebook.com/docs/plugins/like-button -->
       <div id="fb-root"></div>
@@ -10,10 +10,6 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
   <!-- /facebook -->
-<% end %>
-<% content_for(:after_body_starts) do %>
-
-  <!-- /yie yie -->
 <% end %>
 
 <% og_data(:url, request.original_url) %>
