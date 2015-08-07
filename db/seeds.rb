@@ -1,5 +1,6 @@
 # encoding: UTF-8
 require_relative 'seeds/brazilian_states_and_cities'
+require_relative 'seeds/abroad_states_and_cities'
 
 Recruiter::Tag.find_or_create_by!({
   name: 'Home Office'
