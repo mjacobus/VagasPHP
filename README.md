@@ -1,6 +1,8 @@
 Vagas PHP
 ==============
 
+Testando continuous integration com codeship
+
 Código fonte do site [VagasPHP.com.br](http://vagasphp.com.br)
 
 [![Build Status](https://travis-ci.org/mjacobus/VagasPHP.png?branch=master)](https://travis-ci.org/mjacobus/VagasPHP)
